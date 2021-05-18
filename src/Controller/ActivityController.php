@@ -156,26 +156,28 @@ class ActivityController extends AbstractController
 
         $selectedActivity = (new ActivityManager())->selectOneById((int)$_GET['activityid']);
         $maxRegisteredMembers = intval($selectedActivity["max_registered_members"]);
-        // On va récupérer l'id dans Session USER
-
-        // On va récuperer un member_id du user dans la table gathering
         $allParticipants = $gatheringManager->selectAllParticipantsbyActivityId((int)$_GET['activityid']);
-        
-        if(count($allParticipants) >= $maxRegisteredMembers)
-        {
+
+        // On test si le nombre de participants est égale ou supérieur à la capacité de groupe
+        // Si oui, on stocke une erreur dans le tableau $errors
+        if (count($allParticipants) >= $maxRegisteredMembers) {
             array_push($errors, "Il n'y a plus aucune place pour cette activité.");
         }
-        // On compare les deux et si il existe déjà dans la table gathering
+
+        // On traverse allParticipants et on vérifie si l'utilisateur connecté est déjà présent dans le tableau $allParticipants
         foreach ($allParticipants as $memberId) {
             if ($_SESSION['user']['id'] === $memberId) {
-                array_push($errors,'Vous êtes déjà inscrit à cette activité.');
+                array_push($errors, 'Vous êtes déjà inscrit à cette activité.');
             }
         }
+
+        // Si aucune erreur, insertion en BDD + on redirige vers l'activité en question
         if (empty($errors)) {
             $gatheringManager->insert($_GET);
             header('Location:/activity/show/?id=' . $_GET['activityid']);
         }
-        // on ne fait pas d'insertion en BDD
+
+        // Si on va directement sur une page d'erreur sans insertion BDD
         return $this->twig->render('Activity/errorJoin.html.twig', [
             'errors' => $errors
         ]);
