@@ -147,28 +147,37 @@ class ActivityController extends AbstractController
             header('Location: /home/index');
         }
 
-        $error = "";
+        $errors = [];
 
         $_GET = array_map('intval', $_GET);
 
         $gatheringManager = new GatheringManager();
+
+
+        $selectedActivity = (new ActivityManager())->selectOneById((int)$_GET['activityid']);
+        $maxRegisteredMembers = intval($selectedActivity["max_registered_members"]);
         // On va récupérer l'id dans Session USER
 
         // On va récuperer un member_id du user dans la table gathering
         $allParticipants = $gatheringManager->selectAllParticipantsbyActivityId((int)$_GET['activityid']);
+        
+        if(count($allParticipants) >= $maxRegisteredMembers)
+        {
+            array_push($errors, "Il n'y a plus aucune place pour cette activité.");
+        }
         // On compare les deux et si il existe déjà dans la table gathering
         foreach ($allParticipants as $memberId) {
             if ($_SESSION['user']['id'] === $memberId) {
-                $error = 'Vous êtes déjà inscrit à cette activité.';
+                array_push($errors,'Vous êtes déjà inscrit à cette activité.');
             }
         }
-        if ($error !== 'Vous êtes déjà inscrit à cette activité.') {
+        if (empty($errors)) {
             $gatheringManager->insert($_GET);
             header('Location:/activity/show/?id=' . $_GET['activityid']);
         }
         // on ne fait pas d'insertion en BDD
         return $this->twig->render('Activity/errorJoin.html.twig', [
-            'error' => $error
+            'errors' => $errors
         ]);
     }
 

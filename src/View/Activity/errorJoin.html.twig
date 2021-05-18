@@ -1,8 +1,10 @@
 {% extends 'layout.html.twig' %}
 
 {% block content %}
-	{% if error %}
-	    <p class="text-warning text-center">{{ error }}</p>
+	{% if errors %}
+        {% for error in errors %}
+	    <p class="text-warning text-center">{{ error}}</p>
+        {% endfor %}
 	{% endif %}
 <script>
 
