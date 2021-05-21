@@ -28,6 +28,6 @@
 
 Le site est déployé sur 
 
-✤ <i>Ceci est un projet de hackathon interne au sein de la Wild Code School Toulouse (48h) - Développeur web (main 2021)<i>
-✤ <i>Prix de la meilleur fonctionnalité<i> <br>
+✤ <i>Ceci est un projet de hackathon interne au sein de la Wild Code School Toulouse (48h) - Développeur web (main 2021)<i> <br>
+✤ <i>Prix de la meilleur fonctionnalité<i>
 
