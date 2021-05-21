@@ -1,6 +1,8 @@
 <h1> Rock On Mars </h1>
 <h2> Sujet : Etre seul sur Mars :alien: <h2>
- Afin de répondre à la problématique de la solitude, notre groupe à choisi de créer une application qui permet aux utilisateurs de créer ou bien de rejoindre une activité.
+ 
+ 
+Afin de répondre à la problématique de la solitude, notre groupe à choisi de créer une application qui permet aux utilisateurs de créer ou bien de rejoindre une activité.
 
   
 <h2> Introduction</h2>
