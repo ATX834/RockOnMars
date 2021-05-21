@@ -3,8 +3,8 @@
   
   <p>
 
-    Afin de répondre à la problématique de la solitude, notre groupe à choisi de créer une application qui permet aux utilisateurs de créer ou bien de rejoindre une activité.
-
+    <br>
+      Afin de répondre à la problématique de la solitude, notre groupe à choisi de créer une application qui permet aux utilisateurs de créer ou bien de rejoindre une activité.
   </p>
   
 <h2> Introduction</h2>
