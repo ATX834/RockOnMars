@@ -26,7 +26,7 @@
 
 <h2> :computer: Déploiement </h2>
 
-Le site est déployé sur 
+L'application est déployé sur 
 
 ✤ <i>Ceci est un projet de hackathon interne au sein de la Wild Code School Toulouse (48h) - Développeur web (mai 2021)<i> <br>
 ✤ <i>Prix de la meilleur fonctionnalité<i>
