@@ -46,7 +46,7 @@
 
 <h2 id='deploiement'> :computer: Déploiement </h2>
 
-L'application est déployée sur 
+L'application est déployée sur https://rock-on-mars.herokuapp.com/
  
  
 <h2 id="collaborateurs"> :scroll: Collaborateurs</h2>
