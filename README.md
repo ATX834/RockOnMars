@@ -22,23 +22,26 @@
      <img src='https://pngimg.com/uploads/mysql/mysql_PNG6.png' width=50px height=25px>
        •
     </p>
- <h2> :alien: Application de rencontres martiennes </h2>
- 
- <p>
-   Dans une démarche de répondre à la problématique de la solitude sur Mars, notre groupe a crée cette application permettant aux rovers (et autres) de se rencontrer en créant des activités et/ou en rejoignant celles partagées par la communauté.
- </p>
- 
+
 <h2 id="table-of-contents"> :book: Sommaire</h2>
 
 <details open="open">
   <summary>Index</summary>
   <ol>
+    <li><a href="#applications"> ➤ Application de rencontres martiennes</a></li>
     <li><a href="#fonctionnalites"> ➤ Fonctionnalités</a></li>
     <li><a href="#deploiement"> ➤ Déploiement</a></li>
     <li><a href="#collaborateurs"> ➤ Collaborateurs</a></li>
     <li><a href="#references"> ➤ Références</a></li>
   </ol>
 </details> 
+    
+ <h2 id='applications'> :alien: Application de rencontres martiennes </h2>
+ 
+ <p>
+   Dans une démarche de répondre à la problématique de la solitude sur Mars, notre groupe a crée cette application permettant aux rovers (et autres) de se rencontrer en créant des activités et/ou en rejoignant celles partagées par la communauté.
+ </p>
+ 
  
 <h2 id="fonctionnalites"> :floppy_disk: Fonctionnalités
 </h2>
