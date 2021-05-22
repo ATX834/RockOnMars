@@ -28,7 +28,7 @@
 <details open="open">
   <summary>Index</summary>
   <ol>
-    <li><a href="#applications"> ➤ Application de rencontres martiennes</a></li>
+    <li><a href="#application"> ➤ Application de rencontres martiennes</a></li>
     <li><a href="#fonctionnalites"> ➤ Fonctionnalités</a></li>
     <li><a href="#deploiement"> ➤ Déploiement</a></li>
     <li><a href="#collaborateurs"> ➤ Collaborateurs</a></li>
@@ -36,16 +36,42 @@
   </ol>
 </details> 
     
- <h2 id='applications'> :alien: Application de rencontres martiennes </h2>
+ <h2 id='application'> :alien: Application de rencontres martiennes </h2>
  
  <p>
    Dans une démarche de répondre à la problématique de la solitude sur Mars, notre groupe a crée cette application permettant aux rovers (et autres) de se rencontrer en créant des activités et/ou en rejoignant celles partagées par la communauté.
  </p>
  
  
-<h2 id="fonctionnalites"> :floppy_disk: Fonctionnalités
-</h2>
- 
+<h2 id="fonctionnalites"> :floppy_disk: Fonctionnalités</h2>
+    <p>
+        En arrivant sur l'application, les visiteurs pourront constater les dernières activités ajoutées. Cependant, pour profiter pleinement du site, il est recommandé de créer un compte pour rejoindre la communauté Rock On Mars.
+    <p align='center'>
+        <kbd>
+            <img src='/readme-src/page-accueil.png' width=600px height=600px /> <br>
+            <i>Première page du site</i>
+        </kbd>
+    </p>
+        <p>
+        En arrivant sur l'application, les visiteurs pourront constater les dernières activités ajoutées. Cependant, pour profiter pleinement du site, il est recommandé de créer un compte pour rejoindre la communauté Rock On Mars.
+    <p align='center'>
+        <kbd>
+            <img src='/readme-src/login.gif' width=600px height=300px /> <br>
+            <i>Connectez-vous pour accéder aux privilèges des membres</i>
+        </kbd>
+    </p>
+    <p align='center'>
+        <kbd>
+            <img src='/readme-src/card.png' width=320px height=400px /> <br>
+            <i>Visualisez les activités de la communauté</i>
+        </kbd>
+    </p>
+    <p align='center'>
+        <kbd>
+            <img src='/readme-src/join.gif' width=500px height=300px /> <br>
+            <i>Rejoignez une activité pour le faire savoir au reste de la communauté</i>
+        </kbd>
+    </p>
 
 <h2 id='deploiement'> :computer: Déploiement </h2>
     <p>
@@ -77,6 +103,6 @@
 <p>
   ➤ Utilisation de l'architecture <a href="https://github.com/WildCodeSchool/simple-mvc">Simple-MVC</a>
 </p>
-
+    <h2></h2>
 ✤ <i>Ceci est un projet de hackathon interne au sein de la Wild Code School Toulouse (48h) - Développeur web (mai 2021)<i> <br>
 ✤ <i>Prix de la meilleur fonctionnalité<i>
