@@ -43,7 +43,7 @@
  <h2 id='application'> :alien: Application de rencontres martiennes </h2>
  
  <p>
-   Dans une démarche de répondre à la problématique de la solitude sur Mars, notre groupe a crée cette application permettant aux rovers (et autres) de se rencontrer en créant des activités et/ou en rejoignant celles partagées par la communauté.
+   Afin de répondre à la problématique de la solitude sur Mars, notre groupe a crée cette application permettant aux rovers (et autres) de se rencontrer en créant des activités et/ou en rejoignant celles partagées par la communauté.
  </p>
  
  
