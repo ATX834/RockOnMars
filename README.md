@@ -30,6 +30,10 @@
   <ol>
     <li><a href="#application"> ➤ Application de rencontres martiennes</a></li>
     <li><a href="#fonctionnalites"> ➤ Fonctionnalités</a></li>
+       <ul>
+        <li><a href="#avantages">Avantages d'être membre</a></li>
+        <li><a href="#erreurs">Gestion des erreurs</a></li>
+      </ul>
     <li><a href="#deploiement"> ➤ Déploiement</a></li>
     <li><a href="#collaborateurs"> ➤ Collaborateurs</a></li>
     <li><a href="#references"> ➤ Références</a></li>
@@ -44,6 +48,7 @@
  
  
 <h2 id="fonctionnalites"> :floppy_disk: Fonctionnalités</h2>
+  <h3 id='avantages'> :thumbsup: Avantages d'être membre </h3>
     <p>
         En arrivant sur l'application, les visiteurs pourront constater les dernières activités ajoutées. Cependant, pour profiter pleinement du site, il est recommandé de créer un compte pour rejoindre la communauté Rock On Mars.
     <p align='center'>
@@ -52,8 +57,6 @@
             <i>Première page du site</i>
         </kbd>
     </p>
-        <p>
-        En arrivant sur l'application, les visiteurs pourront constater les dernières activités ajoutées. Cependant, pour profiter pleinement du site, il est recommandé de créer un compte pour rejoindre la communauté Rock On Mars.
     <p align='center'>
         <kbd>
             <img src='/readme-src/login.gif' width=600px height=300px /> <br>
@@ -72,6 +75,41 @@
             <i>Rejoignez une activité pour le faire savoir au reste de la communauté</i>
         </kbd>
     </p>
+    <p>
+        A la création d'une activité, il est possible de l'assigner à trois catégories :
+        <li>Sport</li>
+        <li>Entertainment</li>
+        <li>Culture</li><br>
+        Ainsi, les utilisateurs peuvent filtrer les activités pour trouver ce qu'ils souhaitent.
+    </p>
+    <p align='center'>
+            <img src='/readme-src/filtrer-activité.gif' width=400px height=410px /> <br>
+    </p>
+    <p>
+        Grâce à l'API NASA <b>Mars Rover Photo</b>, nous pouvons contempler les photos prises par les rovers pour mieux connaître les terres inconnues de Mars.
+    </p>
+    <p align='center'>
+            <img src='/readme-src/gallery.png' width=400px height=410px /> <br>
+    </p>
+      <h3 id='erreurs'> :boom: Gestions des erreurs </h3>
+    <p> Pour éviter certains désagréments pour les membres du site, nous avons pris en compte certains scénarios tels que :
+        <li>Pouvoir rejoindre plus d'une fois une activité</li>
+        <li>Pouvoir rejoindre malgré la limite de capacité de groupe de l'activité</li><br>
+        Dans ces situations-là, il leur est impossible de s'inscrire. Un message s'affiche alors pour faire comprendre à l'utilisateur le soucis rencontré
+    </p>
+    <p align='center'>
+        <kbd>
+            <img src='/readme-src/erreur-deja-rejoint.gif' width=380px height=410px /> <br>
+            <i>Impossible de rejoindre plus d'une fois</i>
+        </kbd>
+    </p>
+    <p align='center'>
+         <kbd>
+              <img src='/readme-src/plus-de-place.gif' width=380px height=410px /><br>
+              <i>Impossible de rejoindre si la limite ne le permet pas</i>
+        </kbd>
+    </p>
+        
 
 <h2 id='deploiement'> :computer: Déploiement </h2>
     <p>
@@ -101,7 +139,8 @@
 <h2 id='references'> :books: Références </h2>
 
 <p>
-  ➤ Utilisation de l'architecture <a href="https://github.com/WildCodeSchool/simple-mvc">Simple-MVC</a>
+  ➤ Utilisation de l'architecture <a href="https://github.com/WildCodeSchool/simple-mvc">Simple-MVC</a><br>
+  ➤ Utilisation d'une API de la NASA <a href="https://data.nasa.gov/Space-Science/Mars-Rover-Photos-API/929k-jizu">Mars Rover Photos</a>
 </p>
     <h2></h2>
 ✤ <i>Ceci est un projet de hackathon interne au sein de la Wild Code School Toulouse (48h) - Développeur web (mai 2021)<i> <br>
