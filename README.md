@@ -22,10 +22,10 @@
      <img src='https://pngimg.com/uploads/mysql/mysql_PNG6.png' width=50px height=25px>
        •
     </p>
- <h2> Sujet : Etre seul sur Mars :alien: </h2>
+ <h2> :alien: Application de rencontres martiennes </h2>
  
  <p>
-   Afin de répondre à la problématique de la solitude, notre groupe a choisi de créer une application qui permet aux utilisateurs de créer ou bien de rejoindre une activité parmi celles partagées par la communauté.
+   Dans une démarche de répondre à la problématique de la solitude sur Mars, notre groupe a crée cette application permettant aux rovers (et autres) de se rencontrer en créant des activités et/ou en rejoignant celles partagées par la communauté.
  </p>
  
 <h2 id="table-of-contents"> :book: Sommaire</h2>
@@ -45,8 +45,9 @@
  
 
 <h2 id='deploiement'> :computer: Déploiement </h2>
-
-L'application est déployée sur https://rock-on-mars.herokuapp.com/
+    <p>
+        L'application est déployée ici ➤ <a href="https://rock-on-mars.herokuapp.com/">rock-on-mars.herokuapp.com</a>
+    </p>
  
  
 <h2 id="collaborateurs"> :scroll: Collaborateurs</h2>
